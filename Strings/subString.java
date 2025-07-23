@@ -3,7 +3,7 @@ import java.util.*;
 // continious sub-part
 public class subString {
 
-
+  // subString finding function from given string and end index
 
   
 
