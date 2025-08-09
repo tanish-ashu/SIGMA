@@ -20,5 +20,4 @@ public class vowelsInString {
     int output = vowelCount(str, Map);
     System.out.println(output);
   }
-  
 }
