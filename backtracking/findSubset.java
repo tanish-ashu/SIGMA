@@ -3,8 +3,13 @@ public class findSubset {
   public static void printSubsets(String str, String ans, int idx){
     // base case
     if (idx == str.length()){
-      System.out.println(ans);
-      return;
+      if(ans.length() == 0){
+        System.out.println("null");
+      }else
+      {
+        System.out.println(ans);
+      }
+       return;
     }
 
     // yes choice / recursion
